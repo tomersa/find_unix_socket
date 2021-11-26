@@ -5,7 +5,7 @@ $ netstat -xp | grep <socket name>
 This script does it searching for the socket under /proc directory. 
 
 In the 1st terminal run:
-`$ bind_socket.py test' - Will create a socket named `test` and wait on it forever.
+`$ bind_socket.py test` - Will create a socket named `test` and wait on it forever.
 
 In the 2nd terminal run:
 `$ find_socket.py test` - The program will return the pid(process id) of the process holding the socket. 
